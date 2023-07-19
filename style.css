@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+}
+
+.form-group button {
+  padding: 8px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+}
+
+.task-list li input[type="checkbox"] {
+  margin-right: 5px;
+}
